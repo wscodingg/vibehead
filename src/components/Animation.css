@@ -1,0 +1,42 @@
+@keyframes fromLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fromRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes hide{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        display: none;
+    }
+}
+
+.animate-from-left {
+    animation: fromLeft 1s forwards;
+}
+
+.animate-from-right {
+    animation: fromRight 1s forwards;
+}
+
+.animation-container-hide{
+    animation: hide 1ms forwards 2s;
+}
