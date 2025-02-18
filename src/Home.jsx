@@ -1,10 +1,13 @@
 import React from "react";
 import Searchbar from "./components/SearchBar";
+import './Background.css';
 
 function Home(){
     return(
         <>
-            <Searchbar />
+            <div className="one">
+                <Searchbar />
+            </div>
         </>
     )
 }
