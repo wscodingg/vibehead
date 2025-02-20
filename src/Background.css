@@ -1,5 +1,31 @@
-.one {
+.four {
     background-image: url(assets/04.gif);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+}
+
+.two {
+    background-image: url(assets/02.gif);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+}
+
+.six {
+    background-image: url(assets/06.gif);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 100vh;
+}
+
+.one {
+    background-image: url(assets/01.gif);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
     background-size: cover;
     height: 100vh;
 }
