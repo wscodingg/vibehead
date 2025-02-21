@@ -38,7 +38,13 @@ function Topbar(){
 function Pomodaro() {
     return(
         <>
-            <p>nothin yet</p>
+            <div className="bg-gray-900 w-50 text-white noto-sans text-center ml-auto mr-8 my-3">
+                <h1 className="pt-5 text-3xl">05:00</h1>
+                <div className="flex justify-center gap-5 py-5">
+                    <button className="border px-3 py-1 cursor-pointer hover:bg-white hover:text-black transition-all active:scale-95">Start</button>
+                    <button className="border px-3 py-1 cursor-pointer bg-red-600 active:scale-95">Reset</button>
+                </div>
+            </div>
         </>
     )
 }
